@@ -262,8 +262,8 @@ Typing full patch commands gets old quickly.
 I strongly suggest adding aliases:
 
 ```bash
-alias load-on="kubectl patch configmap nginx-loadtest -p '{\"data\":{\"flag\":\"true\"}}'"
-alias load-off="kubectl patch configmap nginx-loadtest -p '{\"data\":{\"flag\":\"false\"}}'"
+alias load-on="kubectl patch configmap nginx-loadtest -p '{"data":{"flag":"true"}}'"
+alias load-off="kubectl patch configmap nginx-loadtest -p '{"data":{"flag":"false"}}'"
 ```
 
 This makes experimentation faster and more natural during testing ;)
