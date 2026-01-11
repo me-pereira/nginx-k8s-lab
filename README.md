@@ -325,7 +325,7 @@ The idea is to evolve this lab gradually, not turn it into a full platform.
 
 ---
 
-📄 Additional Documentation
+## 📄 Additional Documentation
 
 This repository also includes supplementary Markdown files to provide deeper insights and guidance:
 
