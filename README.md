@@ -342,6 +342,7 @@ These files help you understand the lab’s structure, reasoning, and how to han
 ## 👤 Author
 
 mepereira
+
 GitHub: [https://github.com/me-pereira](https://github.com/me-pereira)
 LinkedIn: [https://linkedin.com/in/marcel-eberlin](https://linkedin.com/in/marcel-eberlin)
 
