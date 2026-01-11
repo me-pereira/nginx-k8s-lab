@@ -1,0 +1,15 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: nginx-labsec
+  labels:
+    release: prometheus-operator
+spec:
+  selector:
+    matchLabels:
+      app.k8s-monitor: nginx
+  namespaceSelector:
+    any: true   # coleta métricas de todos os namespaces, se quiser
+  endpoints:
+    - port: metrics
+      interval: 15s
