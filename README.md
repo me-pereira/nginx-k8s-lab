@@ -320,6 +320,14 @@ Some ideas intentionally left out:
 * Prometheus and Grafana
 * Canary deployments
 * Fault injection
+Merge branch 'main' of github.com:me-pereira/nginx-k8s-lab
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+File Name to Write: /home/meberlin/labs/nginx-k8s-lab/.git/MERGE_MSG                                                                         
+^G Help                            M-D DOS Format                     M-A Append                         M-B Backup File
+^C Cancel                          M-M Mac Format                     M-P Prepend                        ^T Browse
 
 The idea is to evolve this lab gradually, not turn it into a full platform.
 
@@ -343,8 +351,8 @@ These files help you understand the lab’s structure, reasoning, and how to han
 
 mepereira
 
-GitHub: [https://github.com/me-pereira](https://github.com/me-pereira)
-LinkedIn: [https://linkedin.com/in/marcel-eberlin](https://linkedin.com/in/marcel-eberlin)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/me-pereira)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/marcel-eberlin)
 
 ### 🤖 Documentation note
 
