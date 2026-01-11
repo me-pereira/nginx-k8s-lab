@@ -325,6 +325,20 @@ The idea is to evolve this lab gradually, not turn it into a full platform.
 
 ---
 
+📄 Additional Documentation
+
+This repository also includes supplementary Markdown files to provide deeper insights and guidance:
+
+ARCHITECTURE.md – Details the system architecture, container responsibilities, and load generation design.
+
+DECISIONS.md – Explains design choices, trade-offs, and why certain approaches were taken.
+
+TROUBLESHOOTING.md – Contains common issues, debugging tips, and practical solutions encountered during lab setup.
+
+These files help you understand the lab’s structure, reasoning, and how to handle potential problems.
+
+---
+
 ## 👤 Author
 
 mepereira
