@@ -1,5 +1,8 @@
 FROM nginx
 
+# Configura fuso horário para GMT-3
+ENV TZ=America/Sao_Paulo
+
 # Instalacao do stress
 RUN apt-get update && \
     apt-get install -y stress && \
