@@ -6,6 +6,10 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   ingressClassName: nginx
+  tls:
+    - hosts: 
+        - nginx.labsec.local
+      secretName: nginx-labsec-tls
   rules:
   - host: nginx.labsec.local
     http:
