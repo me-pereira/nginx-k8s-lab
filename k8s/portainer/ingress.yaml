@@ -3,9 +3,11 @@ kind: Ingress
 metadata:
   name: portainer-ingress
   namespace: portainer
-  annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
+  tls:
+    - hosts:
+        - portainer.lab.local
+      secretName: portainer-tls
   rules:
     - host: portainer.lab.local
       http:

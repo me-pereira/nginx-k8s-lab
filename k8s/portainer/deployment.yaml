@@ -62,29 +62,21 @@ kind: Service
 metadata:
   name: portainer
   namespace: portainer
-  labels:
-    io.portainer.kubernetes.application.stack: portainer
-    app.kubernetes.io/name: portainer
-    app.kubernetes.io/instance: portainer
-    app.kubernetes.io/version: "ce-latest-ee-lts"
 spec:
   type: ClusterIP
   ports:
-    - port: 9000
+    - name: http
+      port: 9000
       targetPort: 9000
       protocol: TCP
-      name: http
-      nodePort: 30777
-    - port: 9443
+    - name: https
+      port: 9443
       targetPort: 9443
       protocol: TCP
-      name: https
-      nodePort: 30779      
-    - port: 30776
+    - name: edge
+      port: 30776
       targetPort: 30776
       protocol: TCP
-      name: edge
-      nodePort: 30776
   selector:
     app.kubernetes.io/name: portainer
     app.kubernetes.io/instance: portainer
